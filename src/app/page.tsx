@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <main className="h-screen w-screen">
       <NavBar />
-      {/* <HomePage /> */}
-      <About />
+      <HomePage />
+      {/* <About /> */}
     </main>
   );
 }
