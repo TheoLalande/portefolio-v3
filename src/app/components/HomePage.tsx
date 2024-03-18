@@ -12,11 +12,9 @@ const HomePage = () => {
     // function onScroll() {
     //   console.log("scroll!");
     // }
-    window.addEventListener("scroll", preventMotion, false);
-    window.addEventListener("touchmove", preventMotion, false);
-
+    // window.addEventListener("scroll", preventMotion, false);
+    // window.addEventListener("touchmove", preventMotion, false);
     // window.addEventListener("scroll", onScroll);
-
     // return function unMount() {
     //   window.removeEventListener("scroll", onScroll);
     // };
