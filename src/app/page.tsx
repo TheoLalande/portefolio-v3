@@ -8,7 +8,7 @@ import About from "./components/About";
 
 export default function Home() {
   return (
-    <main className="h-screen w-screen">
+    <main className="h-screen w-screen container">
       <NavBar />
       <HomePage />
       {/* <About /> */}

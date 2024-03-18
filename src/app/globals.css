@@ -7,14 +7,6 @@
   padding: 0;
 }
 
-h1 {
-  font-size: 72px;
-}
-h2 {
-  font-size: 32px;
-  font-weight: lighter;
-}
-
 .radial-bg {
   background: radial-gradient(
     circle at 50% 50%,
