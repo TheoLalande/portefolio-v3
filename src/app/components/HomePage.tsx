@@ -1,6 +1,5 @@
 "use client";
-import bgHeader from "../../../public/images/bgHeader.png";
-import header from "../../../public/images/header.png";
+
 import Image from "next/image";
 import { IoIosArrowRoundDown } from "react-icons/io";
 import H1 from "./global/H1";
@@ -8,51 +7,9 @@ import React, { useEffect } from "react";
 
 import H2 from "./global/H2";
 const HomePage = () => {
-  useEffect(function mount() {
-    // function onScroll() {
-    //   console.log("scroll!");
-    // }
-    // window.addEventListener("scroll", preventMotion, false);
-    // window.addEventListener("touchmove", preventMotion, false);
-    // window.addEventListener("scroll", onScroll);
-    // return function unMount() {
-    //   window.removeEventListener("scroll", onScroll);
-    // };
-  });
-  // window.addEventListener("scroll", preventMotion, false);
-  // window.addEventListener("touchmove", preventMotion, false);
-
-  function preventMotion(event: {
-    preventDefault: () => void;
-    stopPropagation: () => void;
-  }) {
-    window.scrollTo(0, 0);
-    event.preventDefault();
-    event.stopPropagation();
-  }
   return (
     <div>
-      {/* BACKGROUND_______________________________________________________________________________________ */}
-      <div className="absolute h-screen w-screen">
-        <Image
-          className="relative z-index-0"
-          src={bgHeader}
-          alt="bg-header"
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center"
-        />
-        <Image
-          className="relative z-index-[1]"
-          src={header}
-          alt="header"
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center"
-        />
-      </div>
-      {/* CONTENT___________________________________________________________________________________________ */}
-      <div className="absolute z-index[2] h-screen w-screen">
+      <div className=" z-index[2] h-screen w-screen" id="homePage">
         <div className="relative h-screen w-screen flex justify-center items-center  text-white flex-col">
           <H1 text="Théo Lalande" />
           <H2 text="Développeur Front-End" />

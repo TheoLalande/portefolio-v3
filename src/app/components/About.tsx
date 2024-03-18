@@ -10,8 +10,8 @@ const About = () => {
     return age.toString();
   }
   return (
-    <div className="radial-bg w-screen h-screen ">
-      <div className="grid grid-cols-2  w-screen h-screen gap-3 grid-flow-col-dense	">
+    <div className="radial-bg w-screen h-screen" id="aboutPage">
+      <div className="flex  w-screen h-screen gap-3 grid-flow-col-dense	relative justify-center items-center ">
         <div className="flex w-1/3 h-[534px]  ml-64 rounded-xl relative">
           <Image
             src={me}
@@ -42,7 +42,7 @@ const About = () => {
           <p>
             <text>
               Bonjour ! Je suis très heureux que vous soyez passé sur ma page
-              personnelle :3 Je vis et travaille à Montpellier \n Le
+              personnelle :3 Je vis et travaille Montpellierà \n Le
               développement front-end - c&apos;est ce qui a vraiment captivé mon
               cœur. Je suis convaincu que la créativité, combinée avec des
               compétences techniques, peut créer des choses étonnantes. Mon
