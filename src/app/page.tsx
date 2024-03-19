@@ -13,9 +13,9 @@ export default function Home() {
     <main className="h-screen w-screen container">
       <Background />
       <NavBar />
-      <HomePage />
+      {/* <HomePage /> */}
       <About />
-      <Skills />
+      {/* <Skills /> */}
     </main>
   );
 }
